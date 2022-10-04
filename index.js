@@ -72,5 +72,6 @@ for (var i = 0; i < questions.length; i++) {
 
   var currentQuestion = questions[i];
   play(currentQuestion.question, currentQuestion.answer)
+  
 }
 console.log("That's Great! Your Final score is:", score);
